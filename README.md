@@ -1,5 +1,5 @@
 # Responsive-Website
-A responsive website built using HTML, CSS, JavaScript, and Bootstrap 4. 
+A responsive website built in VSCode using HTML, CSS, JavaScript, and Bootstrap 4. 
 
 This is purely a promotional/vanity site for the University of Florida sport uniforms.
 
