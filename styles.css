@@ -69,7 +69,7 @@ body{
 
 /*------------CAROUSEL CSS------------------*/
 .carousel-caption{
-    transform: translateX(-17%) translateY(-90%);
+    transform: translateX(-17%) translateY(-50%);
     position: absolute;
     text-align: left;
 }
@@ -489,7 +489,7 @@ footer{
         width: 100%;
 }
 
-
+/*-------------JAVASCRIPT CLASSES----------*/
 
 
 /*-------------MEDIA CHANGES----------*/
