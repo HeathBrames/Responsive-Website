@@ -69,7 +69,7 @@ body{
 
 /*------------CAROUSEL CSS------------------*/
 .carousel-caption{
-    transform: translateX(-17%) translateY(-50%);
+    transform: translateX(-17%) translateY(-10vw);
     position: absolute;
     text-align: left;
 }
@@ -116,7 +116,7 @@ body{
 
 #buttonCSS{
     font-family: Oswald;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     text-transform: uppercase;
 }
 
@@ -127,7 +127,7 @@ body{
 
 /*--------------NEWS BAR--------------*/
 .news-bar{
-    transform: translateY(-60%);
+    transform: translateY(-2vw);
 }
 
 .news-bar h1{
@@ -253,23 +253,12 @@ body{
     text-align: center;
     font-family: Oswald;
     text-transform: uppercase;
-    font-size: 5vw;
+    font-size: 3.5vw;
     transform: none;
     padding-top: 5vw;
 
     text-underline-position: below;
 }
-
-
-.database-heading h1:before{
-    content: "";
-    position: absolute;
-    width: 10%;
-    height: 0px;
-    bottom: -5px;
-    left: 45%;
-    border-bottom: 4px solid #222222;
-} 
 
 
 
@@ -557,9 +546,9 @@ footer{
         padding-top: 2px;
     }
 
-    .carousel-caption{
+    /*.carousel-caption{
         top: 66%;
-    }
+    }*/
 
     .news-bar{
         transform: none;
@@ -599,9 +588,9 @@ footer{
 
 @media (max-width: 768px){
 
-    .carousel-caption{
+    /*.carousel-caption{
         top: 64%;
-    }
+    }*/
 
     #footer-logo img{
         border-right: none;
@@ -615,6 +604,23 @@ footer{
         text-align: center !important;
     }
 
+    #footer-logo{
+        margin-bottom: 5vw;
+    }
+
+    #footer-logo img{
+        width: 125px;
+        height: 120px;
+    }
+
+    .col-md{
+        margin: 5vw;
+    }
+
+    .col-12{
+        padding: 5vw;
+    }
+
 }
 
 @media (max-width: 576px){
@@ -623,7 +629,7 @@ footer{
     }
 
     .carousel-caption{
-        top: 55%;
+        top: 25vw;
     }
 
     .carousel-indicators li{
@@ -669,5 +675,6 @@ footer{
     .database-gallery{
         margin: 2vw;
     }
+
 }
 
