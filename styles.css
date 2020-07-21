@@ -137,7 +137,7 @@ body{
     
         padding: 0px;
         margin: 0px;
-        font-size: 3.5vw;
+        font-size: 5vw;
 }
 
 
@@ -252,10 +252,9 @@ body{
     text-align: center;
     font-family: Oswald;
     text-transform: uppercase;
-    font-size: 4vw;
+    font-size: 5vw;
     transform: none;
-    padding-top: 3vw;
-
+    padding-top: 6vw;
 }
 
 
@@ -267,16 +266,13 @@ body{
 
 /*-------------DATABASE GALLERY---------*/  
 .database-container {
-    margin-top: 2vw;
     height: auto;
-    background-color: #423d3d;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .database-gallery{
-    background-color: #423d3d;
     display: flex;
     margin: 4vw;
     overflow: hidden;
@@ -337,7 +333,7 @@ body{
 
 .card{
     /*this changes the outline around the cards*/
-    background-color: #000000;
+    background-color: black;
 }
 
 .database-container h1{
@@ -349,10 +345,23 @@ body{
 
 
 
+/*-----------EXTRA HEADING---------*/
+.extras-heading h1{
+    text-align: center;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 5vw;
+    transform: none;
+    padding-top: 4vw;
+    padding-bottom: 1vw;
+}
 
 
 
-/*-----------TWITTER GALLERY---------*/
+
+
+
+/*-----------EXTRAS GALLERY---------*/
 #twitter-section{
     margin-top: 0vw;
 }
@@ -377,7 +386,7 @@ body{
 
 
     -webkit-filter: drop-shadow(1px 1px 1px rgba(114, 114, 114, 0.5));
-    filter: drop-shadow(2px 2.5px 2px rgb(100, 100, 100));
+    filter: drop-shadow(1px 1px 1px rgb(100, 100, 100));
 }
 
 .bonus-one h2{
@@ -416,7 +425,7 @@ body{
 
 /*-----------------------FOOTER-------------------------*/
 footer{
-    margin-top: 3vw;
+    margin-top: 5vw;
     background-color: #222222;
     color: #f7f7f7;
     padding-top: 1.5vw;
