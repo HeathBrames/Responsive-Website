@@ -70,6 +70,9 @@ body{
     width: 100%;
 }
 
+.navbar-brand{
+    padding-bottom: .1rem;
+}
 
 
 
@@ -281,7 +284,7 @@ body{
 
 .database-gallery{
     display: flex;
-    margin: 4vw;
+    margin: 3.5vw;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -492,7 +495,9 @@ footer{
         width: 100%;
 }
 
-/*-------------JAVASCRIPT CLASSES----------*/
+
+
+
 
 
 /*-------------MEDIA CHANGES----------*/
@@ -550,6 +555,7 @@ footer{
 
     #navbarResponsive ul li a{
         padding-top: 2px;
+        font-size: 4vw;
     }
 
     .nav-item:after{
@@ -597,22 +603,18 @@ footer{
     }
 
     .bonus-one h2{
-        font-size: 6vw;
+        font-size: 4vw;
     }
 }
 
 @media (max-width: 768px){
-
-    /*.carousel-caption{
-        top: 64%;
-    }*/
 
     #footer-logo img{
         border-right: none;
     }
 
     #smallHeading{
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
 
     .col-md{
@@ -639,8 +641,9 @@ footer{
 }
 
 @media (max-width: 576px){
-    .navbar-brand{
-        display: none;
+    .navbar-brand img{
+        width: 230px;
+        height: 35px;
     }
 
     .carousel-caption{
