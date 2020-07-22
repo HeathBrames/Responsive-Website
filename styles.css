@@ -20,6 +20,13 @@ body{
     flex-direction: column;
 }
 
+
+.paddingcon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 /*----------NAVIGATION BAR CSS---------------*/
 .navbar{
     background: transparent;
@@ -137,7 +144,7 @@ body{
     
         padding: 0px;
         margin: 0px;
-        font-size: 5vw;
+        font-size: 6vw;
 }
 
 
@@ -252,9 +259,9 @@ body{
     text-align: center;
     font-family: Oswald;
     text-transform: uppercase;
-    font-size: 5vw;
+    font-size: 6vw;
     transform: none;
-    padding-top: 6vw;
+    padding-top: 5vw;
 }
 
 
@@ -350,10 +357,10 @@ body{
     text-align: center;
     font-family: Oswald;
     text-transform: uppercase;
-    font-size: 5vw;
+    font-size: 6vw;
     transform: none;
-    padding-top: 4vw;
-    padding-bottom: 1vw;
+    padding-top: 3vw;
+    padding-bottom: 0vw;
 }
 
 
@@ -391,7 +398,7 @@ body{
 
 .bonus-one h2{
     font-family: Oswald;
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
     text-transform: uppercase;
     position: relative;
@@ -413,7 +420,7 @@ body{
 
 .twitter-timeline{
     -webkit-filter: drop-shadow(1px 1px 1px rgba(114, 114, 114, 0.5));
-    filter: drop-shadow(2px 2.5px 2px rgb(114, 114, 114));
+    filter: drop-shadow(1px 1px 1px rgb(114, 114, 114));
 }
 
 
@@ -541,6 +548,10 @@ footer{
         text-transform: uppercase;
     }
 
+    #navbarResponsive ul li a{
+        padding-top: 2px;
+    }
+
     .nav-item:after{
         display: none;
     }
@@ -548,14 +559,6 @@ footer{
     #slides{
         top: 0;
     }
-
-    #navbarResponsive ul li a{
-        padding-top: 2px;
-    }
-
-    /*.carousel-caption{
-        top: 66%;
-    }*/
 
     .news-bar{
         transform: none;
@@ -567,6 +570,11 @@ footer{
 
     .news-gallery a{
         height: 22rem;
+    }
+
+
+    #twitter-section{
+        margin-bottom: 20px;
     }
 
     #twitter-section .col-lg-6 a{
@@ -581,7 +589,7 @@ footer{
     }
 
     #twitter-feed{
-        height: 100vw;
+        height: 60vw;
     }
 
     .bonus-one{
