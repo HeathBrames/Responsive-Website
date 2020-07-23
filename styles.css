@@ -264,7 +264,7 @@ body{
     text-transform: uppercase;
     font-size: 6vw;
     transform: none;
-    padding-top: 5vw;
+    padding-top: 4vw;
 }
 
 
@@ -362,7 +362,7 @@ body{
     text-transform: uppercase;
     font-size: 6vw;
     transform: none;
-    padding-top: 3vw;
+    padding-top: 0vw;
     padding-bottom: 0vw;
 }
 
@@ -668,6 +668,10 @@ footer{
 
     .news-gallery a{
         max-height: 10rem;
+    }
+
+    .news-gallery{
+        grid-gap: 2.0rem;
     }
 
     .img-caption{
