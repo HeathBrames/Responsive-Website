@@ -1,7 +1,7 @@
 # Responsive-Website
 A responsive website built using HTML, CSS, JavaScript, and Bootstrap 4. 
 
-This is a promotional site for the University of Florida's team uniforms.  The site acts as a social media hub for news and information.
+The site acts as a social media hub for news and information on the University of Florida's uniforms.
 
 
 FEATURES:
@@ -11,5 +11,7 @@ FEATURES:
 - "Database" Image Gallery (Flexbox)
 - Embedded Twitter and "Concepts" image
 - Footer
+
+
 
 Sold to Gators Uniform Tracker (@GatorsUnis on Twitter)
