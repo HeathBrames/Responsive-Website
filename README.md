@@ -1,5 +1,5 @@
 # Responsive-Website
-A responsive website built using HTML, CSS, JavaScript, and Bootstrap 4. 
+A responsive website built using HTML, CSS, Bootstrap 4, and Javascript. 
 
 The site acts as a social media hub for news and information on the University of Florida's uniforms.
 
