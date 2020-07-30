@@ -13,5 +13,8 @@ FEATURES:
 - Footer
 
 
+***----------FULLY RESPONSIVE----------***
+
+
 
 Sold to Gators Uniform Tracker (@GatorsUnis on Twitter)
