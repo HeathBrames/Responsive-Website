@@ -579,6 +579,11 @@ footer{
     }
 
 
+    #twitter-section .col-lg-6{
+        padding-right: 8vw;
+        padding-left: 8vw;
+    }
+
     #twitter-section{
         margin-bottom: 20px;
     }
@@ -605,6 +610,11 @@ footer{
     .bonus-one h2{
         font-size: 4vw;
     }
+
+    #rights-reserved{
+        padding-bottom: 2vw;
+    }
+
 }
 
 @media (max-width: 768px){
@@ -631,13 +641,22 @@ footer{
     }
 
     .col-md{
-        margin: 5vw;
+        margin: 3vw;
     }
 
     .col-12{
-        padding: 5vw;
+        padding: 10vw;
     }
 
+    .container-fluid h5{
+        font-size: 22px;
+        padding: .5rem;
+    }
+
+    .container-fluid p{
+        font-size: 13px;
+        margin: 3vw;
+    }
 }
 
 @media (max-width: 576px){
